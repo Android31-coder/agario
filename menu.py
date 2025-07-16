@@ -29,6 +29,3 @@ class ConnectWindow(CTk):
         self.host = self.host_entry.get()
         self.port = self.port_entry.get()
         self.destroy()
-
-win = ConnectWindow()
-win.mainloop()
